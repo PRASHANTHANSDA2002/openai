@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://openai-code-zco5.onrender.com', {
+    const response = await fetch('http://localhost:5000', {
         //http://localhost:5000
         //https://openai-code-zco5.onrender.com
         method: 'POST',
